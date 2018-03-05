@@ -9,6 +9,15 @@
     <meta name="author" content="">
 
     <title>Ana Julia</title>
+    
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,10 +64,15 @@
     <!-- Header - COLOCAR ANIMAÇÃO NO FUNDO -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/avatar-aj.png" alt="">
+      
+        <img id="avatar" class="img-fluid mb-5 d-block mx-auto rounded-circle" src="img/avatar-aj.png" width="150px" height="180px" alt="ana-julia-avatar">
+        
         <h1 class="text-uppercase mb-0">Ana Julia Bravo</h1>
+      
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer & Digital Marketing Enthusiast</h2>
+        <h2 class="font-weight-light mb-0">
+            Web Developer | Digital Marketer | Data Scientist Enthusiast
+        </h2>
       </div>
     </header>
    
@@ -145,6 +159,8 @@
               <img class="img-fluid" src="img/portfolio/circus.png" alt="">
             </a>
           </div>
+      
+      <!-- 
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -176,7 +192,12 @@
             </a>
           </div>
         </div>
-      </div><!--END CONTAINER-->
+        -->
+      
+      </div><!--END ROW-->  
+     </div><!--END CONTAINER-->
+    
+      
     </section>
     
     <!-- About Section -->
@@ -254,45 +275,36 @@
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
+          <!--
           <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Location</h4>
             <p class="lead mb-0">2215 John Daniel Drive
               <br>Clark, MO 65243</p>
           </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
+          -->
+          <div class="col-md-6 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Social Profiles</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/anajulia.bravo.1" target="_blank">
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://medium.com/@anajuliabravoleite" target="_blank">
+                  <i class="fa fa-fw fa-medium"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/ana-julia-bravo" target="_blank">
                   <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-dribbble"></i>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          <div class="col-md-6">
+            <h4 class="text-uppercase mb-4">Get in Touch</h4>
+            <p class="lead mb-0">Send me a <a href="#contact">message</a> to know me better.</p>
           </div>
         </div>
       </div>
@@ -345,7 +357,7 @@
                 <br>  
                 <br>
                 <div>
-                  <h3>What I did: </h3>
+                  <h3>Work done: </h3>
                   <p>
                     <ul>
                       <li>Project briefing</li>
@@ -414,6 +426,9 @@
     </div>
 
     <!-- Portfolio Modal 4 -->
+    
+    <!-- 
+    
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -478,6 +493,7 @@
         </div>
       </div>
     </div>
+    -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="js/main.js"></script>
