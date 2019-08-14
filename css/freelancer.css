@@ -283,3 +283,28 @@ a {
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
     background-color: #1a252f;
     border-color: #1a252f; }
+
+
+/* PORTFOLIO IMAGES */
+
+.portf {
+  width: 120%;
+  height: auto;
+
+  /*
+  width: 70rem;
+  height: 18rem;
+  */
+}
+
+.cur-list {
+  list-style: none;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+}
+.contact-link p{
+  color: black;
+}
+
